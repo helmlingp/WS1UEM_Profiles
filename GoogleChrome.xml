@@ -1,0 +1,44 @@
+<Replace>
+    <CmdID>1</CmdID>
+    <Item>
+        <Meta>
+            <Format>chr</Format>
+            <Type>text/plain</Type>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Google~Policy~googlechrome/HomepageLocation</LocURI>
+        </Target>
+        <Data><![CDATA[>enabled/> <data id="HomepageLocation" value="https://www.vmware.com/solutions/empower-digital-workspace.html"/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <CmdID>2</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Google~Policy~googlechrome/ShowHomeButton</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <CmdID>3</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Google~Policy~googlechrome/HomepageIsNewTabPage</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <CmdID>4</CmdID>
+    <Item>
+        <Meta>
+            <Format>chr</Format>
+            <Type>text/plain</Type>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Google~Policy~googlechrome/NewTabPageLocation</LocURI>
+        </Target>
+        <Data><![CDATA[>enabled/> <data id="NewTabPageLocation" value="https://www.vmware.com/solutions/empower-digital-workspace.html">]]></Data>
+    </Item>
+</Replace>
