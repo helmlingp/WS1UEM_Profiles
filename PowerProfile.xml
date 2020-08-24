@@ -4,7 +4,7 @@
 		<Target>
 			<LocURI>./Device/Vendor/MSFT/Policy/Config/Power/DisplayOffTimeoutOnBattery</LocURI>
 		</Target>
-		<Data>&lt;enabled/&gt;&lt;data id=&quot;EnterVideoDCPowerDownTimeOut&quot; value=&quot;600&quot;/&gt;</Data>
+		<Data><![CDATA[<enabled/><data id="EnterVideoDCPowerDownTimeOut" value="600"/>]]></Data>
 	</Item>
 </Replace>
 <Replace>
@@ -13,7 +13,7 @@
 		<Target>
 			<LocURI>./Device/Vendor/MSFT/Policy/Config/Power/DisplayOffTimeoutPluggedIn</LocURI>
 		</Target>
-		<Data>&lt;enabled/&gt;&lt;data id=&quot;EnterVideoACPowerDownTimeOut&quot; value=&quot;3600&quot;/&gt;</Data>
+		<Data><![CDATA[<enabled/><data id="EnterVideoACPowerDownTimeOut" value="0"/>]]></Data>
 	</Item>
 </Replace>
 <Replace>
@@ -22,7 +22,7 @@
 		<Target>
 			<LocURI>./Device/Vendor/MSFT/Policy/Config/Power/StandbyTimeoutOnBattery</LocURI>
 		</Target>
-		<Data>&lt;enabled/&gt;&lt;data id=&quot;EnterDCStandbyTimeOut&quot; value=&quot;1800&quot;/&gt;</Data>
+		<Data><![CDATA[<enabled/><data id="EnterDCStandbyTimeOut" value="1800"/>]]></Data>
 	</Item>
 </Replace>
 <Replace>
@@ -31,7 +31,7 @@
 		<Target>
 			<LocURI>./Device/Vendor/MSFT/Policy/Config/Power/StandbyTimeoutPluggedIn</LocURI>
 		</Target>
-		<Data>&lt;enabled/&gt;&lt;data id=&quot;EnterACStandbyTimeOut&quot; value=&quot;0&quot;/&gt;</Data>
+		<Data><![CDATA[<enabled/><data id="EnterACStandbyTimeOut" value="0"/>]]></Data>
 	</Item>
 </Replace>
 <Replace>
@@ -40,7 +40,7 @@
 		<Target>
 			<LocURI>./Device/Vendor/MSFT/Policy/Config/Power/HibernateTimeoutOnBattery</LocURI>
 		</Target>
-		<Data>&lt;enabled/&gt;&lt;data id=&quot;EnterDCHibernateTimeOut&quot; value=&quot;3600&quot;/&gt;</Data>
+		<Data><![CDATA[<enabled/><data id="EnterDCHibernateTimeOut" value="3600"/>]]></Data>
 	</Item>
 </Replace>
 <Replace>
@@ -49,6 +49,6 @@
 		<Target>
 			<LocURI>./Device/Vendor/MSFT/Policy/Config/Power/HibernateTimeoutPluggedIn</LocURI>
 		</Target>
-		<Data>&lt;enabled/&gt;&lt;data id=&quot;EnterACHibernateTimeOut&quot; value=&quot;0&quot;/&gt;</Data>
+		<Data><![CDATA[<enabled/><data id="EnterACHibernateTimeOut" value="0"/>]]></Data>
 	</Item>
 </Replace>
