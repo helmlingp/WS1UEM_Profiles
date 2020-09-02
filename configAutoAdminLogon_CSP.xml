@@ -3,6 +3,6 @@
  <parm name="PowershellCommand" value="Add-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon -Name 'DefaultUserName' -Value 'USERNAME' -Force"/>
  <parm name="PowershellCommand" value="Add-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon -Name 'DefaultPassword' -Value 'PASSWORD' -Force"/>
  <parm name="PowershellCommand" value="Add-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon -Name 'AutoAdminLogon' -Value '1' -Force"/>
- <parm name="PowershellCommand" value="Add-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon -Name 'DefaultDomain' -Value 'DOMAIN.FQDN' -Force"/>
+ <parm name="PowershellCommand" value="Add-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon -Name 'DefaultDomainName' -Value 'DOMAIN.FQDN' -Force"/>
 </characteristic>
 </wap-provisioningdoc>

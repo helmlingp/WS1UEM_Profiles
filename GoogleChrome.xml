@@ -1,3 +1,5 @@
+https://support.google.com/chrome/a/answer/9102677?hl=en
+
 <Replace>
     <CmdID>1</CmdID>
     <Item>
@@ -6,16 +8,16 @@
             <Type>text/plain</Type>
         </Meta>
         <Target>
-            <LocURI>./Device/Vendor/MSFT/Policy/Config/Google~Policy~googlechrome/HomepageLocation</LocURI>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Startup/HomepageLocation</LocURI>
         </Target>
-        <Data><![CDATA[>enabled/> <data id="HomepageLocation" value="https://www.vmware.com/solutions/empower-digital-workspace.html"/>]]></Data>
+        <Data><![CDATA[<enabled/><data id="HomepageLocation" value="https://www.vmware.com/solutions/empower-digital-workspace.html"/>]]></Data>
     </Item>
 </Replace>
 <Replace>
     <CmdID>2</CmdID>
     <Item>
         <Target>
-            <LocURI>./Device/Vendor/MSFT/Policy/Config/Google~Policy~googlechrome/ShowHomeButton</LocURI>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Startup/ShowHomeButton</LocURI>
         </Target>
         <Data><![CDATA[<enabled/>]]></Data>
     </Item>
@@ -24,7 +26,7 @@
     <CmdID>3</CmdID>
     <Item>
         <Target>
-            <LocURI>./Device/Vendor/MSFT/Policy/Config/Google~Policy~googlechrome/HomepageIsNewTabPage</LocURI>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Google~Policy~googlechrome~Startup/HomepageIsNewTabPage</LocURI>
         </Target>
         <Data><![CDATA[<enabled/>]]></Data>
     </Item>
@@ -37,8 +39,8 @@
             <Type>text/plain</Type>
         </Meta>
         <Target>
-            <LocURI>./Device/Vendor/MSFT/Policy/Config/Google~Policy~googlechrome/NewTabPageLocation</LocURI>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Google~Policy~googlechrome~Startup/NewTabPageLocation</LocURI>
         </Target>
-        <Data><![CDATA[>enabled/> <data id="NewTabPageLocation" value="https://www.vmware.com/solutions/empower-digital-workspace.html">]]></Data>
+        <Data><![CDATA[<enabled/><data id="NewTabPageLocation" value="https://www.vmware.com/solutions/empower-digital-workspace.html">]]></Data>
     </Item>
 </Replace>

@@ -2,18 +2,18 @@
     <CmdID>1</CmdID>
     <Item>
         <Target>
-            <LocURI>./Device/Vendor/MSFT/Policy/Config/Google~Policy~Cat_Applications/Pol_DefaultUpdatePolicy</LocURI>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/GoogleUpdate~Policy~Cat_GoogleUpdate~Cat_Applications/Pol_DefaultUpdatePolicy</LocURI>
         </Target>
-        <Data><![CDATA[<enabled/> <data id="Part_UpdatePolicy" value="0"/>]]></Data>
+        <Data><![CDATA[<enabled/><data id="Part_UpdatePolicy" value="0"/>]]></Data>
     </Item>
 </Replace>
 <Replace>
     <CmdID>2</CmdID>
     <Item>
         <Target>
-            <LocURI>./Device/Vendor/MSFT/Policy/Config/Google~Policy~Cat_GoogleChrome/Pol_UpdatePolicyGoogleChrome</LocURI>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/GoogleUpdate~Policy~Cat_GoogleUpdate~Cat_Applications~Cat_GoogleChrome/Pol_UpdatePolicyGoogleChrome</LocURI>
         </Target>
-        <Data><![CDATA[<enabled/> <data id="Part_UpdatePolicy" value="0"/>]]></Data>
+        <Data><![CDATA[<enabled/><data id="Part_UpdatePolicy" value="0"/>]]></Data>
     </Item>
 </Replace>
 
