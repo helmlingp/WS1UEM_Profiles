@@ -1,0 +1,30 @@
+<Add>
+    <CmdID>2</CmdID>
+    <Item>
+    <Target>
+        <LocURI>
+        ./Device/Vendor/MSFT/Accounts/Users/LocalAdmin/Password
+        </LocURI>
+    </Target>
+    <Meta>
+        <Format xmlns="syncml:metinf">chr</Format>
+        <Type>text/plain</Type>
+    </Meta>
+    <Data>VMware1!</Data>
+    </Item>
+</Add>
+<Add>
+    <CmdID>3</CmdID>
+    <Item>
+    <Target>
+        <LocURI>
+        ./Device/Vendor/MSFT/Accounts/Users/LocalAdmin/LocalUserGroup
+        </LocURI>
+    </Target>
+    <Meta>
+        <Format xmlns="syncml:metinf">int</Format>
+        <Type>text/plain</Type>
+    </Meta>
+    <Data>2</Data>
+    </Item>
+</Add>
