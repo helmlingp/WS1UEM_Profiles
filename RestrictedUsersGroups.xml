@@ -4,13 +4,13 @@
     <Target><LocURI>./Device/Vendor/MSFT/Policy/Config/RestrictedGroups/ConfigureGroupMembership</LocURI></Target>
     <Data><![CDATA[<groupmembership>
 		<accessgroup desc = "Administrators">
-			<member name = "Administrator" />
+            <member name = "Administrator" />
             <member name = "LocalAdmin" />
             <member name = "DOMAIN\OtherAdmins" />
             <member name = "DOMAIN\OtherUsers" />
 		</accessgroup>
         <accessgroup desc = "Remote Desktop Users">
-			<member name = "DOMAIN\Domain Admins" />
+            <member name = "DOMAIN\Domain Admins" />
             <member name = "LocalAdmin" />
             <member name = "DOMAIN\OtherAdmins" />
             <member name = "DOMAIN\OtherUsers" />

@@ -1,0 +1,10 @@
+<Replace>
+    <CmdID>2</CmdID>
+    <Item>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_AddRemovePrograms/NoAddRemovePrograms</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+
