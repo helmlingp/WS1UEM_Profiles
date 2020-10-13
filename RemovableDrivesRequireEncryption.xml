@@ -1,0 +1,15 @@
+<Replace>
+  <CmdID>2</CmdID>
+  <Item>
+    <Target><LocURI>./Device/Vendor/MSFT/BitLocker/RemovableDrivesRequireEncryption</LocURI></Target>
+    <Data><![CDATA[<enabled/><data id="RDVCrossOrg" value="true"/>]]></Data>
+  </Item>
+</Replace>
+
+<Replace>
+  <CmdID>2</CmdID>
+  <Item>
+    <Target><LocURI>./Device/Vendor/MSFT/BitLocker/RemovableDrivesRequireEncryption</LocURI></Target>
+    <Data><![CDATA[<disabled/>]]></Data>
+  </Item>
+</Replace>
