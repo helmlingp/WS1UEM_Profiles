@@ -1,0 +1,22 @@
+Custom Profile
+Target: Workspace ONE Intelligent Hub
+
+<wap-provisioningdoc id="85e8d2df-d7ba-4dd2-ac5d-7aea2e7f9ec4" name="customprofile">
+  <characteristic type="com.airwatch.winrt.registryoperation" uuid="1b1cd4ee-bbfe-408d-833d-a0696b523ec4">
+
+    <parm RegistryPath="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel" Action="Replace">
+        <Value Name="{20D04FE0-3AEA-1069-A2D8-08002B30309D}" Data="1" Type="DWORD" />
+    </parm>
+ 
+  </characteristic>
+</wap-provisioningdoc>
+
+<wap-provisioningdoc id="85e8d2df-d7ba-4dd2-ac5d-7aea2e7f9ec4" name="customprofile">
+  <characteristic type="com.airwatch.winrt.registryoperation" uuid="1b1cd4ee-bbfe-408d-833d-a0696b523ec4">
+
+    <parm RegistryPath="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel" Action="Remove">
+        <Value Name="{20D04FE0-3AEA-1069-A2D8-08002B30309D}" Data="1" Type="DWORD" />
+    </parm>
+ 
+  </characteristic>
+</wap-provisioningdoc>

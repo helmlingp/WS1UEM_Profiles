@@ -1,0 +1,22 @@
+Custom Profile
+Target: Workspace ONE Intelligent Hub
+
+<wap-provisioningdoc id="1164DF07-F217-449B-95F8-FB85A34D3CA5" name="customprofile">
+    <characteristic type="com.airwatch.winrt.registryoperation" uuid="4fa91319-eac0-4a16-9d10-093ba845b698">
+      
+        <parm RegistryPath="HKLM\SOFTWARE\Policies\Microsoft" Action="Replace">
+            <Value Name="PassportForWork" Data="0" Type="DWord" />
+        </parm>
+ 
+    </characteristic>
+</wap-provisioningdoc>
+
+<wap-provisioningdoc id="1164DF07-F217-449B-95F8-FB85A34D3CA5" name="customprofile">
+    <characteristic type="com.airwatch.winrt.registryoperation" uuid="4fa91319-eac0-4a16-9d10-093ba845b698">
+      
+        <parm RegistryPath="HKLM\SOFTWARE\Policies\Microsoft" Action="Remove">
+            <Value Name="PassportForWork" Data="0" Type="DWord" />
+        </parm>
+ 
+    </characteristic>
+</wap-provisioningdoc>

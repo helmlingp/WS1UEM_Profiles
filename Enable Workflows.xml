@@ -1,0 +1,22 @@
+Custom Profile
+Target: Workspace ONE Intelligent Hub
+
+<wap-provisioningdoc id="c0c0d684-c43f-4480-add0-3b34ab81e084" name="customprofile">
+    <characteristic type="com.airwatch.winrt.registryoperation" uuid="5ee1cd3a-7220-4175-91bf-8fbf2e5ae104">
+      
+        <parm RegistryPath="HKLM\SOFTWARE\Airwatch\Feature" Action="Replace">
+            <Value Name="WORKFLOW" Data="True" Type="String" />
+        </parm>
+ 
+    </characteristic>
+</wap-provisioningdoc>
+
+<wap-provisioningdoc id="c0c0d684-c43f-4480-add0-3b34ab81e084" name="customprofile">
+    <characteristic type="com.airwatch.winrt.registryoperation" uuid="5ee1cd3a-7220-4175-91bf-8fbf2e5ae104">
+      
+        <parm RegistryPath="HKLM\SOFTWARE\Airwatch\Feature" Action="Remove">
+            <Value Name="WORKFLOW" Data="True" Type="String" />
+        </parm>
+ 
+    </characteristic>
+</wap-provisioningdoc>

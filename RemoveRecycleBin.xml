@@ -1,17 +1,30 @@
-Target=Workspace ONE Intelligent Hub
+Custom Profile
+Target: Workspace ONE Intelligent Hub
 
-<wap-provisioningdoc id="c14e8e45-792c-4ec3-88e1-be121d8c33dc" name="customprofile">
-  <characteristic type="com.airwatch.winrt.powershellcommand" uuid="7957d046-7765-4422-9e39-6fd5eef38174">
-  <parm name="PowershellCommand" value="$interval = 0;
-$registryPath = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu";
-$Name = "{645FF040-5081-101B-9F08-00AA002F954E}";
+<wap-provisioningdoc id="11bba37b-dcf4-4607-80b7-7e59361dd2e8" name="customprofile">
+  <characteristic type="com.airwatch.winrt.registryoperation" uuid="d73e4d1a-782c-46cf-83ec-d82e259f0cf3">
+  
+    <parm RegistryPath="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu" Action="Replace">
+        <Value Name="{645FF040-5081-101B-9F08-00AA002F954E}" Data="1" Type="DWORD" />
+    </parm>
 
-IF(!(Test-Path $registryPath));
+    <parm RegistryPath="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel" Action="Replace">
+        <Value Name="{645FF040-5081-101B-9F08-00AA002F954E}" Data="1" Type="DWORD" />
+    </parm>
+ 
+  </characteristic>
+</wap-provisioningdoc>
 
-  {;
-    New-Item -Path $registryPath -Force | Out-Null;
- };
+<wap-provisioningdoc id="11bba37b-dcf4-4607-80b7-7e59361dd2e8" name="customprofile">
+  <characteristic type="com.airwatch.winrt.registryoperation" uuid="d73e4d1a-782c-46cf-83ec-d82e259f0cf3">
+  
+    <parm RegistryPath="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu" Action="Remove">
+        <Value Name="{645FF040-5081-101B-9F08-00AA002F954E}" Data="1" Type="DWORD" />
+    </parm>
 
-    New-ItemProperty -Path $registryPath -Name $Name -Value $interval -PropertyType DWORD -Force | Out-Null"/>
- </characteristic>
+    <parm RegistryPath="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel" Action="Remove">
+        <Value Name="{645FF040-5081-101B-9F08-00AA002F954E}" Data="1" Type="DWORD" />
+    </parm>
+ 
+  </characteristic>
 </wap-provisioningdoc>
