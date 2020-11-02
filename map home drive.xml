@@ -6,8 +6,3 @@
   New-PSDrive -Name $user.HomeDrive.Replace(':','') -Root $user.HomeDirectory -PSProvider FileSystem -Scope Global -Persist'/>
  </characteristic>
 </wap-provisioningdoc>
-
-$user=([adsisearcher]"samaccountname=$env:username").FindOne().GetDirectoryEntry()
-$user.HomeDrive
-$user.HomeDirectory
-New-PSDrive -Name $user.HomeDrive.Replace(':','') -Root $user.HomeDirectory -PSProvider FileSystem -Scope Global -Persist
