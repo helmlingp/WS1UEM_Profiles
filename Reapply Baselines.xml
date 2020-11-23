@@ -5,7 +5,7 @@ Target: Workspace ONE Intelligent Hub
   <characteristic type="com.airwatch.winrt.registryoperation" uuid="81f18dd4-76bf-4d46-b112-31a860bfdcff">
   
     <parm RegistryPath="HKLM\SOFTWARE\Airwatch\ReapplyBaseline" Action="Replace">
-        <Value Name="Interval" Data="2" Type="String" />
+        <Value Name="Interval" Data="1" Type="String" />
     </parm>
  
   </characteristic>
@@ -15,7 +15,7 @@ Target: Workspace ONE Intelligent Hub
   <characteristic type="com.airwatch.winrt.registryoperation" uuid="81f18dd4-76bf-4d46-b112-31a860bfdcff">
   
     <parm RegistryPath="HKLM\SOFTWARE\Airwatch\ReapplyBaseline" Action="Remove">
-        <Value Name="Interval" Data="2" Type="String" />
+        <Value Name="Interval" Data="1" Type="String" />
     </parm>
  
   </characteristic>
