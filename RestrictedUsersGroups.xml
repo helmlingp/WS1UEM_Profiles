@@ -2,20 +2,21 @@
   <CmdID>2</CmdID>
   <Item>
     <Target><LocURI>./Device/Vendor/MSFT/Policy/Config/RestrictedGroups/ConfigureGroupMembership</LocURI></Target>
-    <Data><![CDATA[<groupmembership>
-		<accessgroup desc = "Administrators">
-            <member name = "Administrator" />
-            <member name = "LocalAdmin" />
-            <member name = "DOMAIN\OtherAdmins" />
-            <member name = "DOMAIN\OtherUsers" />
-		</accessgroup>
+    <Data>
+      <![CDATA[<groupmembership>
+        <accessgroup desc = "Administrators">
+          <member name = "Administrator" />
+          <member name = "AzureAD\philtest1@eucocto.com" />
+          <member name = "AzureAD\philtest2@eucocto.com" />
+          <member name = "S-1-12-1-4236668006-1087825656-2726067375-1039889116" />
+        </accessgroup>
         <accessgroup desc = "Remote Desktop Users">
-            <member name = "DOMAIN\Domain Admins" />
-            <member name = "LocalAdmin" />
-            <member name = "DOMAIN\OtherAdmins" />
-            <member name = "DOMAIN\OtherUsers" />
-		</accessgroup>
-	</groupmembership>]]>
+          <member name = "Administrator" />
+          <member name = "AzureAD\philtest3@eucocto.com" />
+          <member name = "AzureAD\philtest4@eucocto.com" />
+          <member name = "S-1-12-1-3198331077-1199125661-3902990989-584626875" />
+        </accessgroup>
+      </groupmembership>]]>
     </Data>
   </Item>
 </Replace>
