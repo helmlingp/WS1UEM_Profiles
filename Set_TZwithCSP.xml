@@ -25,6 +25,6 @@ set TZ on example machine and use tzutil.exe /g to show the TZ Name - put in <Da
             <Format xmlns="syncml:metinf">chr</Format>
             <Type>text/plain</Type>
         </Meta>
-        <Data>UTC</Data>
+        <Data></Data>
     </Item>
 </Replace>
