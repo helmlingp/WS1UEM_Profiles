@@ -2,29 +2,33 @@ https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-timela
 set TZ on example machine and use tzutil.exe /g to show the TZ Name - put in <Data> tag
 
 <Replace>
-    <CmdID>2</CmdID>
+    <CmdID>baec18d4-e6d0-424a-9f8e-ea4bc2d47de6</CmdID>
     <Item>
-        <Target>
-            <LocURI>./Device/Vendor/MSFT/Policy/Config/TimeLanguageSettings/ConfigureTimeZone</LocURI>
-        </Target>
-        <Meta>
-            <Format xmlns="syncml:metinf">chr</Format>
-            <Type>text/plain</Type>
-        </Meta>
-        <Data>AUS Eastern Standard Time</Data>
+    <Target>
+        <LocURI>
+        ./Device/Vendor/MSFT/Policy/Config/TimeLanguageSettings/ConfigureTimeZone
+        </LocURI>
+    </Target>
+    <Meta>
+        <Format xmlns="syncml:metinf">chr</Format>
+        <Type>text/plain</Type>
+    </Meta>
+    <Data>Cen. Australia Standard Time</Data>
     </Item>
 </Replace>
 
-<Replace>
-    <CmdID>2</CmdID>
+<Delete>
+    <CmdID>baec18d4-e6d0-424a-9f8e-ea4bc2d47de6</CmdID>
     <Item>
-        <Target>
-            <LocURI>./Device/Vendor/MSFT/Policy/Config/TimeLanguageSettings/ConfigureTimeZone</LocURI>
-        </Target>
-        <Meta>
-            <Format xmlns="syncml:metinf">chr</Format>
-            <Type>text/plain</Type>
-        </Meta>
-        <Data></Data>
+    <Target>
+        <LocURI>
+        ./Device/Vendor/MSFT/Policy/Config/TimeLanguageSettings/ConfigureTimeZone
+        </LocURI>
+    </Target>
+    <Meta>
+        <Format xmlns="syncml:metinf">chr</Format>
+        <Type>text/plain</Type>
+    </Meta>
+    <Data></Data>
     </Item>
-</Replace>
+</Delete>
