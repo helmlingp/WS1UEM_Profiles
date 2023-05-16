@@ -1,0 +1,16 @@
+DEVICE PROFILE CUSTOM CSP
+<Replace>
+    <CmdID>2</CmdID>
+    <Item>
+    <Target>
+        <LocURI>
+        ./Device/Vendor/MSFT/DMClient/Provider/{ProviderID}/HelpEmailAddress
+        </LocURI>
+    </Target>
+    <Meta>
+        <Format xmlns="syncml:metinf">chr</Format>
+        <Type>text/plain</Type>
+    </Meta>
+    <Data>help@vmware.com</Data>
+    </Item>
+</Replace>
