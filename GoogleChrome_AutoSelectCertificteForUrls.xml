@@ -1,0 +1,7 @@
+<wap-provisioningdoc id="2264DF12-F217-449B-95F8-FB85A34D3CA5" name="customprofile">/    
+	<characteristic type="com.airwatch.winrt.registryoperation" uuid="1fa91319-eac0-4a16-9d10-093ba845b698">
+		<parm RegistryPath="HKLM\SOFTWARE\Policies\Google\Chrome" Action="Replace">
+			<Value Name="AutoSelectCertificateForUrls" Data="{&amp;quot;pattern&amp;quot;:&amp;quot;https://customer.vmwareidentity.com\&amp;quot;,&amp;quot;filter&amp;quot;:{&amp;quot;ISSUER&amp;quot;:{&amp;quot;CN&amp;quot;:&amp;quot;CERTIFICATE-ISSUER-NAME&quot;}}}" Type="String" />
+		</parm>
+	</characteristic>
+</wap-provisioningdoc>
